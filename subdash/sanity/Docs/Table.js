@@ -15,5 +15,14 @@ export default {
       title: 'Order',
       type: 'text',
     },
+    {
+      name: 'slug',
+      title: 'Slug',
+      type: 'slug',
+      options: {
+        source: 'tables',
+        maxLength: 96,
+      },
+    },
   ],
 };
